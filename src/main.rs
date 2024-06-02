@@ -1,3 +1,7 @@
+mod funcs;
+use funcs::add_five;
+
 fn main() {
-    println!("Hello, world!");
+    let mut y: u32 = add_five(x);
+    println!("Result: {}", y);
 }
